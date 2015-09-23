@@ -34,6 +34,7 @@ Object-Oriented Folder/Directory Class.
 * LRU Cache
   * All file objects are cached into a global LRU Cache.
   * Some parent object could not be in memory always.
+* Lazy Loading
 
 ### Inheritance
 
@@ -62,6 +63,9 @@ register  = require 'object-file'
 
 The dynamic attributes of an object.
 Howto merge these attributes into an object directly?
+
+The value of attributes on the class is the type of attributes.
+It's meaningful only on the class instance.
 
 ### attribute(aName[, aValue])
 
